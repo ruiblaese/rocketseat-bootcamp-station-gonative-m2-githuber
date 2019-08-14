@@ -9,7 +9,7 @@ import styles from './styles';
 
 const RepositoryItem = ({repository}) => (
   <View style={styles.container}>
-    <Text style={styles.title}>{JSON.stringify(repository.full_name)}</Text>
+    <Text style={styles.title}>{repository.full_name}</Text>
 
     <View style={styles.infoContainer}>
       <View style={styles.info}>
